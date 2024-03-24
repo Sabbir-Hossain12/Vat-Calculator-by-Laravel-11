@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <title>TechHatch</title>
-    <link rel="icon" type="image/x-icon" href="{{asset('/favicon.ico')}}"/>
+    <title>Vat Calculator</title>
+{{--    <link rel="icon" type="image/x-icon" href="{{asset('/favicon.ico')}}"/>--}}
     <link href="{{asset('assets/css/bootstrap.css')}}" rel="stylesheet"/>
     <link href="{{asset('assets/css/animate.min.css')}}" rel="stylesheet"/>
     <link href="{{asset('assets/css/fontawesome.css')}}" rel="stylesheet"/>
@@ -74,13 +74,13 @@
     </nav>
 
     {{--Hero--}}
-    <section class="py-2 bg-gradient-faded-dark ">
+    <section class="py-2 bg-dark ">
         <div class="container ">
             <div class="row align-items-center justify-content-evenly vh-100 mt-6">
                 <div class="col-12 col-md-10 col-lg-5 mb-5 mb-lg-0">
                     {{--                    <h2 class="fw-bold"></h2>--}}
-                    <h2 class=" fw-bold mb-3 text-light">Vat Calculator</h2>
-                    <p class="lead text-muted mb-4 text-light">The VAT Calculator is a Laravel-based web tool for effortless Value Added Tax (VAT) calculations. Users input the gross sum, choose VAT operation (include or exclude), and specify the tax percentage. The application swiftly computes the
+                    <h2 class="fw-bold mb-3 text-light">Vat Calculator</h2>
+                    <p class="lead fw-lighter mb-4 text-light">The VAT Calculator is a Laravel-based web tool for effortless Value Added Tax (VAT) calculations. Users input the gross sum, choose VAT operation (include or exclude), and specify the tax percentage. The application swiftly computes the
                         VAT amount or net amount, offering swift and accurate results tailored to user preferences</p>
                     <div class="d-flex flex-wrap">@auth
                             <a

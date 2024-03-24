@@ -12,6 +12,8 @@
 
 </div>
 
+## Live Link
+http://vat-calculator.infinityfreeapp.com/
 
 <!-- TABLE OF CONTENTS -->
 <details>
