@@ -3,11 +3,9 @@
 <div align="center">
 
 <img src="public/assets/images/ss/ss.png"/>
-<h2 align="center"> Note App</h2>
+<h2 align="center"> Vat Calculator</h2>
 
-  <p align="center">our Note-taking application provides users with a seamless platform to organize 
-their thoughts, ideas, and reminders. With an intuitive interface and robust functionality, users can effortlessly create,
-edit, and manage their notes to stay organized and productive.</p>
+  <p align="center">The VAT Calculator is a Laravel-based web tool for effortless Value Added Tax (VAT) calculations. Users input the gross sum, choose VAT operation (include or exclude), and specify the tax percentage. The application swiftly computes the VAT amount or net amount, offering swift and accurate results tailored to user preferences</p>
 
 
 
@@ -41,11 +39,9 @@ edit, and manage their notes to stay organized and productive.</p>
 
 <img src="public/assets/images/ss/ss1.png"/>
 <img src="public/assets/images/ss/ss2.png"/>
-<img src="public/assets/images/ss/ss3.png"/>
-<img src="public/assets/images/ss/ss4.png"/>
 
-A simple “Note-taking application” using Laravel. The application should
-allow users to input their daily notes and manage them.
+
+Simply enter the gross sum, choose vat calculation operation (include or exclude), tax percentage and press «Calculate» or enter button to calculate VAT amount.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,7 +79,7 @@ Open your terminal and navigate to the directory where you want to install the L
 Then run the following command:
 
    ```sh
-   git clone https://github.com/Sabbir-Hossain12/Note-taking-App.git
+   git clone https://github.com/Sabbir-Hossain12/Vat-Calculator-by-Laravel-11.git
    ```
 
 #### 2. Navigate to Project Directory
@@ -91,7 +87,8 @@ Then run the following command:
 Move into the project directory:
 
    ```sh
-   cd Note-taking-App
+   cd Vat-Calculator-by-Laravel-11
+
    ```
 
 #### 3. Install Dependencies
@@ -158,30 +155,30 @@ browser.
 
 ## Product Requirement and Roadmap
 
-1. User Authentication:
-   - Implement user registration, login, and logout functionalities.
-   - Ensure secure authentication for accessing user-specific notes.
-2. Note Management:
-   - Allow users to create, edit, and delete notes.
-   - Each note should have a title, content, creation date, and last modified date.
-3. Implement CRUD operations for managing notes.
-   - Search Functionality:
-   - Implement a search feature for users to find notes based on titles or content.
-4. User interface
-   - Utilize the provided Bootstrap template from Bootstrap Examples for designing
-   the user interface.
-   - Design an intuitive and user-friendly interface for creating, viewing, and
-   managing notes.
+- Complete each section to the best of your ability within the given time frame.
+- You can use online resources, but plagiarism is strictly prohibited.
+- Submit your solution as instructed at the end of the task.
+
+### Section 1: Authentication & Seeder
+Create an authentication mechanism for users.
+Make a seeder for user login.
+
+### Section 3: Create a simple vat calculator
+- Create a Layout Using Laravel Blade Templating Engine(i.e: Blade Template Mastering)
+Use this template for creating the app, https://getbootstrap.com/docs/5.2/examples/dashboard/
+Instructions for the vat calculator:
+Simply enter the gross sum, choose vat calculation operation (include or exclude), tax percentage and press «Calculate» or enter button to calculate VAT amount.
+By default the VAT calculator rate will be set for Bangladesh standard VAT rate.
+- Excluding VAT from gross sum: VAT calculation formula for VAT exclusion is the following: to calculate VAT having the gross amount you should divide the gross amount by 1 + VAT percentage (i.e. if it is 15%, then you should divide by 1.15), then subtract the gross amount, multiply by -1 and round to the closest value. The last two operations are not mandatory since you see the VAT value even before you do them.
+- Adding VAT to net amount: Simply multiply the net amount by 1 + VAT percentage (i.e. multiply by 1.15 if VAT is 15%) and you'll get the gross amount. Or multiply by VAT percentage to get the VAT value.
+Read more about VAT tax on Wikipedia (https://en.wikipedia.org/wiki/Value-added_tax).
+
 
 ### Features
 
 - Laravel Breeze for Authentication(login,registration,forget password,logout)
-- Dynamic User Name on top right corner of Dashboard. 
-- Dynamic Dashboard shows the total number of Notes for the Specific User.
-- List of Total Notes for the specific User managed by Jquery Datatable plugin.
-- Edit, Delete, Search, pagination, custom entry and Create Notes Dynamically Using Ajax architecture(axios library).
-- user-friendly interface for creating, viewing, and
-  managing notes.
+- Seeder for user login.
+- enter the gross sum, choose vat calculation operation (include or exclude), tax percentage and press «Calculate» or enter button to calculate VAT amount.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -194,7 +191,7 @@ browser.
 
 Sabbir Hossain- h.sabbir36@yahoo.com
 
-Project Link: https://github.com/Sabbir-Hossain12/Note-taking-App
+Project Link: https://github.com/Sabbir-Hossain12/Vat-Calculator-by-Laravel-11
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
