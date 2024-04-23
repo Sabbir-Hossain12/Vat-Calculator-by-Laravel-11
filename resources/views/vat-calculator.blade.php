@@ -69,6 +69,7 @@
 
             let grossSum = $('#gross_sum').val();
             let taxPercentage = $('#tax_percentage').val();
+            // will retrieve the value of the checked radio button with the name "operation" in the HTML document
             let operation = $('input[name="operation"]:checked').val();
 
             axios.post('/calculate', {
